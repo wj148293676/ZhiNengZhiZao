@@ -1,0 +1,140 @@
+/*初始化类*/
+@charset "UTF-8";
+html{
+    font-family:'微软雅黑', sans-serif;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+html,body {
+    -webkit-touch-callout:none;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-user-select:none;
+    width: 100%;
+}
+body {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    color: #212121;
+    background-color: #f5f5f5;
+    outline: 0;
+}
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    border:0;
+    padding:0;
+    font-style:normal;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+@media only screen and (min-width: 400px) {
+    html {
+        font-size: 21.33333333px !important;
+    }
+}
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 21px !important;
+    }
+}
+@media only screen and (min-width: 480px) {
+    html {
+        font-size: 25.6px !important;
+    }
+}
+ul, li {
+    list-style: none;
+}
+p {
+    font-size: 0.7rem;
+    color: #757575;
+}
+a {
+    color: #0062cc;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    outline: 0;
+}
+textarea {
+    overflow: hidden;
+    resize: none;
+}
+button {
+    overflow: visible;
+}
+button,select {
+    text-transform: none;
+}
+button,input,select,textarea {
+    font: inherit;
+    color: inherit;
+}
+textarea {
+    border: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 2.2rem;
+    color: #424242;
+    font-size: 0.8rem;
+    font-family: inherit;
+    box-sizing: border-box;
+    -webkit-user-select: text;
+    user-select: text;
+    -webkit-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+/*文字、背景颜色*/
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+h1 {
+    font-size: 1.2rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: 0.8rem;
+}
+h4 {
+    font-size: 0.7rem;
+}
+h5 {
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #757575;
+}
+h6 {
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #757575;
+}
+h1 small,h2 small,h3 small,h4 small {
+    font-weight: normal;
+    line-height: 1;
+    color: #757575;
+}
+h5 small,h6 small {
+    font-weight: normal;
+    line-height: 1;
+    color: #757575;
+}
+h1 small,h2 small,h3 small {
+    font-size: 65%;
+}
+h4 small,h5 small,h6 small {
+    font-size: 75%;
+}

@@ -1,0 +1,57 @@
+/*透明度-----兼容所有浏览器*/
+.transparent_class {
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+/*渐变色-----兼容所有浏览器*/
+.jianbian{
+    filter:alpha(opacity=100) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#fbfbfb,endcolorstr=#eeeeee,gradientType=0);
+    -ms-filter:alpha(opacity=100) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#fbfbfb,endcolorstr=#eeeeee,gradientType=0);/*IE8*/
+    background:#f3f3f3; /* 一些不支持背景渐变的浏览器 */
+    background:-moz-linear-gradient(top, #fbfbfb, rgba(239, 239, 239,1));
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#fbfbfb), to(rgba(239, 239, 239, 1)));
+    background:-o-linear-gradient(top, #fbfbfb, rgba(239, 239, 239, 1));
+}
+/*阴影-----兼容所有浏览器*/
+.box-shadow{
+    //Firefox4.0-
+    -moz-box-shadow:投影方式 X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色;
+    //Safariand Google chrome10.0-
+    -webkit-box-shadow:投影方式 X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色;
+    //Firefox4.0+、 Google chrome 10.0+ 、 Oprea10.5+ and IE9
+    box-shadow:  投影方式 X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色;
+}
+/*背景图片*/
+.div{
+    background: url("../image") no-repeat;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+/*仿bootstrap定义5列类*/
+.col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media ( min-width : 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media ( min-width : 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media ( min-width : 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}

@@ -1,0 +1,38 @@
+body{
+    position: relative;
+    overflow: hidden;
+}
+.echartsDiv{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+    background: #2e6da4;
+}
+/*#echarts1{*/
+    /*top: 15px;*/
+    /*left: 15px;*/
+/*}*/
+
+/*#echarts2{*/
+    /*top: 215px;*/
+    /*left: 15px;*/
+/*}*/
+
+/*#echarts3{*/
+    /*top: 415px;*/
+    /*left: 15px;*/
+/*}*/
+
+/*#echarts4{*/
+    /*top: 15px;*/
+    /*right: 15px;*/
+/*}*/
+/*#echarts5{*/
+    /*top: 215px;*/
+    /*right: 15px;*/
+/*}*/
+/*#echarts6{*/
+    /*top: 415px;*/
+    /*right: 15px;*/
+/*}*/
